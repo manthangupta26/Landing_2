@@ -15,7 +15,7 @@ Took a whole day to make it work, but learn tons of things.
 ___
 Click here to go the home page which is deployed via Netlify.
 
-[Click me]()
+[Click me](https://illustrious-truffle-5cdec8.netlify.app)
 
 ### Screenshots
 ___
