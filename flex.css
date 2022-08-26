@@ -1,0 +1,47 @@
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.navbar div:nth-child(2){
+    flex-grow: 2;
+} 
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+     padding: 10px; 
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+   justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .list{
+        display: none;
+    }
+}
